@@ -13,7 +13,7 @@ header{
     position: absolute;
     top: 10px;
     left: 10px;
-    font-size: 380%;
+    font-size: 8vh;
  	font-family: Calibri;
  	text-decoration: underline;
  	text-decoration-style: double;
@@ -40,9 +40,9 @@ nav{
 }
 nav a{
 	background-color: black;
-	font-size: 35px;
+	font-size: 5.2vh;
 	font-family: fantasy;
-	margin: 0.3em;
+	margin: 1vh;
 	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.99);
 	color: white;
 	text-decoration: none;
@@ -104,7 +104,6 @@ body{
 	left: 0;
 	padding: 1em;
 	top: 33em;
-	color: white;
 }
 .letter{
 	list-style-type: lower-alpha;
@@ -115,12 +114,17 @@ body{
 strong{
 	color: black;
 }
-dl{
+.subtitle{
+	font-weight: bold;
+	color: black;
+	list-style: none;
 	text-decoration: underline red;
 }
 #table{
-	text-align: left;
+	display: flex;
+	flex-direction: column;
 	position: absolute;
+	text-align: left;
 	left: 0;
 	padding: 1em;
 	top: 37em;
@@ -140,5 +144,61 @@ h3{
 	top: 27em;
 	text-decoration: underline;
 }
-
-
+table{
+	width: 80vw;
+	margin: 0vh 10vw;
+	margin-bottom: 10vh;
+	border-collapse: collapse;
+}
+th, td{
+	width: 20vw;
+	border: 5px solid #bec408;
+  	padding: 10px 15px;
+  	background-color: #18f2ce;
+  	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#article{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+td{
+	color: white;
+	background-color: #f018e2;
+	font-family: cursive;
+}
+th{
+	text-align: center;
+	font-family: fantasy;
+	font-size: 4vh;
+}
+h4{
+	color: white;
+	font-family: calibri;
+	font-size: 3vh;
+}
+li{
+	margin-bottom: 3vh;
+	color: white;
+}
+ul{
+	margin-bottom: 3vh;
+	margin-top: 3vh;
+}
+ol{
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+#none{
+	list-style: none;
+}
+#padding{
+	padding: 0;
+}
+.white{
+	color: white;
+	text-decoration: underline green;
+}
+#circle{
+	list-style-type: circle;
+}
