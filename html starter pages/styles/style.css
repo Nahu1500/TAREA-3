@@ -1,0 +1,15 @@
+#search{
+	max-width: 25%;
+	height: 45vh;
+	margin-top: 10vh;
+	margin-right: 5vw;
+}
+main>a{
+	margin-bottom: 5vh;
+}
+main{
+	margin-top: 12vh;
+}
+p::first-letter{
+	padding-left: 2vw;
+}
